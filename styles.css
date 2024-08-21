@@ -1,24 +1,43 @@
-/* Style for the book block */
+/* Style for the book-library container */
+.book-library {
+    display: flex; /* Display books in a row */
+    flex-wrap: wrap; /* Allow wrapping of books */
+    gap: 20px; /* Space between books */
+    padding: 20px; /* Padding around the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow around container */
+}
+
+/* Style for each book */
 .book {
-    background-color: #f0f0f0; /* Default background for the book block */
-    padding: 10px;
-    border-radius: 8px; /* Assuming border-radius is needed for the block */
-    color: #000000; /* Default text color */
-    margin: 10px;
-    width: 200px; /* Adjust as needed */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional for better visibility */
+    width: 200px; /* Set width of book blocks */
+    border: 1px solid #ddd; /* Border around book block */
+    padding: 10px; /* Padding inside book block */
+    background-color: #fff; /* Background color for book block */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Shadow around book block */
 }
 
-/* Style for the price block */
-.price {
-    background-color: rgb(46, 204, 113); /* Green background */
-    color: rgb(255, 255, 255); /* White text */
-    padding: 5px;
-    border-radius: 4px;
-    text-align: center;
+.book img {
+    width: 100%; /* Full width of the book block */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure image is displayed as a block */
 }
 
-/* Style for the author */
-.author {
-    color: rgb(119, 119, 119); /* Gray color for the author text */
+.book h2 {
+    font-size: 16px; /* Font size for book title */
+    text-align: center; /* Center-align title text */
+}
+
+.book p {
+    color: #777; /* Gray color for author name */
+    font-size: 14px; /* Font size for author name */
+    text-align: center; /* Center-align author text */
+}
+
+.book .price {
+    background-color: #2ecc71; /* Green background for price */
+    color: #fff; /* White text color */
+    padding: 5px; /* Padding around price text */
+    text-align: center; /* Center-align price text */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Space above price */
 }
