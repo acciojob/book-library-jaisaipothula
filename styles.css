@@ -1,50 +1,24 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8; 
-
-.book-library {
-    max-width: 1200px; 
-    margin: 20px auto; 
-    padding: 20px; /
-    background-color: #ffffff; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
+/* Style for the book block */
 .book {
-    display: flex;
-    align-items: center; 
-    margin-bottom: 20px; 
+    background-color: #f0f0f0; /* Default background for the book block */
     padding: 10px;
-    border: 1px solid #ddd; 
-    border-radius: 5px; 
-    background-color: #f9f9f9; 
-
-.book img {
-    width: 100px; 
-    height: auto; 
-    border-radius: 5px;
-    margin-right: 20px; 
+    border-radius: 8px; /* Assuming border-radius is needed for the block */
+    color: #000000; /* Default text color */
+    margin: 10px;
+    width: 200px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional for better visibility */
 }
 
-.book h2 {
-    margin: 0; 
-    font-size: 1.2em; 
-    color: #333;
+/* Style for the price block */
+.price {
+    background-color: rgb(46, 204, 113); /* Green background */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
 }
 
-
-.book p {
-    margin: 5px 0; 
-    color: #777; 
-}
-
-
-.book .price {
-    background-color: #2ecc71;
-    color: #fff; 
-    padding: 5px 10px; 
-    border-radius: 3px; 
-    text-align: center; 
+/* Style for the author */
+.author {
+    color: rgb(119, 119, 119); /* Gray color for the author text */
 }
