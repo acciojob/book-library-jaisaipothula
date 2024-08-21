@@ -1,59 +1,58 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
     margin: 0;
     padding: 0;
 }
 
-/* Book Library */
+/* Styles for the book library container */
 .book-library {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between books */
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #f5f5f5; /* Light background color for the library */
 }
 
-/* Book Block */
+/* Styles for individual book blocks */
 .book {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 10px;
-    width: 200px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Light border around each book */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    width: 200px; /* Fixed width for each book */
+    background-color: #fff; /* White background for each book */
 }
 
+/* Styles for the book image */
 .book img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 4px;
+    width: 100%; /* Full width of the book block */
+    height: auto; /* Maintain aspect ratio */
 }
 
+/* Styles for book info section */
 .book-info {
-    text-align: center;
+    background-color: rgb(46, 204, 113); /* Green background */
+    color: rgb(255, 255, 255); /* White text color */
+    padding: 10px;
 }
 
+/* Styles for book title */
 .book-info h2 {
+    margin: 0;
     font-size: 1.2em;
-    margin: 10px 0;
+    color: #fff; /* White color for the title */
 }
 
+/* Styles for book author */
 .book-info p {
-    color: #777;
     margin: 5px 0;
+    color: rgb(119, 119, 119); /* Gray color for the author */
 }
 
-.price {
-    background-color: rgb(46, 204, 113); /* Correct background color */
-    color: #ffffff; /* Correct text color */
-    padding: 5px 10px;
+/* Styles for book price */
+.book-info .price {
+    background-color: rgb(46, 204, 113); /* Green background */
+    color: rgb(255, 255, 255); /* White text color */
+    padding: 5px;
     border-radius: 4px;
-    display: inline-block;
+    text-align: center;
 }
