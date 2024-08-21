@@ -1,24 +1,23 @@
 .book-library {
     display: flex; 
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     gap: 20px; 
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     background-color: #f9f9f9;
 }
 
-
 .book-library h1 {
-    font-size: 24px;
+    font-size: 24px; 
     text-align: center; 
-    color: #333; 
+    color: #333;
     margin-bottom: 20px; 
 }
 
+
 .book {
-    width: 200px; 
-    border: 1px solid #ddd;
+    width: 200px;
+    border: 1px solid #ddd; 
     padding: 10px; 
     background-color: #fff; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
@@ -31,13 +30,14 @@
 }
 
 .book h2 {
-    font-size: 16px;
+    font-size: 16px; 
     text-align: center; 
+}
 
 .book p {
     color: #777; 
     font-size: 14px; 
-    text-align: center; 
+    text-align: center;
 }
 
 .book .price {
