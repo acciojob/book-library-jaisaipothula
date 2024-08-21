@@ -1,53 +1,50 @@
-/* Style for the book-library container */
 .book-library {
-    display: flex; /* Display books in a row */
-    flex-wrap: wrap; /* Allow wrapping of books */
-    gap: 20px; /* Space between books */
-    padding: 20px; /* Padding around the container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow around container */
-    border: 1px solid #ddd; /* Optional: border for visual clarity */
-    background-color: #f9f9f9; /* Optional: background color for visual clarity */
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; 
+    background-color: #f9f9f9;
 }
 
-/* Style for the h1 element */
+
 .book-library h1 {
-    font-size: 24px; /* Font size for the heading */
-    text-align: center; /* Center-align the heading text */
-    color: #333; /* Text color */
-    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px;
+    text-align: center; 
+    color: #333; 
+    margin-bottom: 20px; 
 }
 
-/* Style for each book */
 .book {
-    width: 200px; /* Set width of book blocks */
-    border: 1px solid #ddd; /* Border around book block */
-    padding: 10px; /* Padding inside book block */
-    background-color: #fff; /* Background color for book block */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Shadow around book block */
+    width: 200px; 
+    border: 1px solid #ddd;
+    padding: 10px; 
+    background-color: #fff; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
 }
 
 .book img {
-    width: 100%; /* Full width of the book block */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure image is displayed as a block */
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
 
 .book h2 {
-    font-size: 16px; /* Font size for book title */
-    text-align: center; /* Center-align title text */
-}
+    font-size: 16px;
+    text-align: center; 
 
 .book p {
-    color: #777; /* Gray color for author name */
-    font-size: 14px; /* Font size for author name */
-    text-align: center; /* Center-align author text */
+    color: #777; 
+    font-size: 14px; 
+    text-align: center; 
 }
 
 .book .price {
-    background-color: #2ecc71; /* Green background for price */
-    color: #fff; /* White text color */
-    padding: 5px; /* Padding around price text */
-    text-align: center; /* Center-align price text */
-    border-radius: 5px; /* Rounded corners */
-    margin-top: 10px; /* Space above price */
+    background-color: #2ecc71; 
+    color: #fff; 
+    padding: 5px; 
+    text-align: center; 
+    border-radius: 5px; 
+    margin-top: 10px; 
 }
